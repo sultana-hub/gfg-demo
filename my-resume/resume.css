@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-sherif;
+}
+body {
+  background-color: lightblue;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.profiletext {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+.profiletext .imgbox {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profiletext .imgbox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profiletext h2 {
+  color: #ffff;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4rem;
+}
+.profiletext h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.contactInfo {
+  padding-top: 40px;
+}
+.title {
+  color: #ffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.contactInfo ul {
+  position: relative;
+}
+.contactInfo ul li {
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.contactInfo ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: deepskyblue;
+}
+.contactInfo ul li.text {
+  color: #ffff;
+  font-weight: 300;
+}
+
+.contactInfo.education li {
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.contactInfo.education h4 {
+  color: deepskyblue;
+  font-weight: 500px;
+}
+.contactInfo.education h5 {
+  color: #ffff;
+  font-weight: 300px;
+}
+.contactInfo .language .percent {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  display: block;
+  margin-top: 5px;
+  color: 1px solid green;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  width: 100px;
+  min-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0 0 0 0);
+}
+
+.container .left-side {
+  background-color: #003147;
+  text-align: left;
+  padding: 40px;
+  color: #ffff;
+}
+
+.container .right-side {
+  background-color: #ffff;
+  text-align: left;
+  padding: 40px;
+}
