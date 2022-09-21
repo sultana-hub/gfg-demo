@@ -87,6 +87,10 @@ body {
   color: deepskyblue;
   font-weight: 500px;
 }
+.contactInfo.education h5:nth-child(2) {
+  color: #ffff;
+  font-weight: 500px;
+}
 .contactInfo.education h5 {
   color: #ffff;
   font-weight: 300px;
@@ -97,9 +101,40 @@ body {
   height: 6px;
   display: block;
   margin-top: 5px;
-  color: 1px solid green;
+  color: 1px solid blue;
 }
-
+/* .contactInfo .language .percent hr {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: deepskyblue;
+} */
+.about {
+  /* margin-bottom: 5px; */
+  margin-top: 10px;
+}
+.about :last-child {
+  margin-bottom: 0;
+}
+.title2 {
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+ul.checkmark {
+  list-style-type: none;
+}
+ul.checkmark li:before {
+  content: "\2713\0020";
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
 .container {
   position: relative;
   display: flex;
