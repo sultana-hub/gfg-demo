@@ -78,7 +78,9 @@ body {
   color: #ffff;
   font-weight: 300;
 }
-
+.text1 {
+  font-weight: 500;
+}
 .contactInfo.education li {
   margin-bottom: 15px;
   letter-spacing: 2px;
@@ -134,6 +136,7 @@ th,
 td {
   border: 1px solid black;
   border-collapse: collapse;
+  padding: 4px;
 }
 .container {
   position: relative;
